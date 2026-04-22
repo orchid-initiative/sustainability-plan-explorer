@@ -3,113 +3,101 @@ title: "Energy and Buildings"
 slug: "energy"
 icon: "bolt"
 color: "#C89B3C"
-summary: "Cleaner power, more efficient buildings, electric vehicles, and shaded streets — the systems that get Alhambra off fossil fuels."
+summary: "Transitioning to clean, renewable energy sources and improving building efficiency to reduce fossil fuel dependence."
 order: 5
 lastUpdated: 2026-04-22
-source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-26 to 3-33"
+source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-27 to 3-33"
 relatedThemes: ["mobility", "air-quality", "water"]
 
 goals:
   - id: "EB-S1"
-    title: "Green the electricity supply"
-    description: "Target: 75% renewable (zero-carbon) electricity by 2030, ~100% by 2045 (aligned with state mandates of 60% by 2030, 100% by 2045); maintain 98% Clean Power Alliance enrollment in 100% Green Rate. Baseline: 98% CPA enrollment in 2023."
+    title: "Green the electricity supply."
+    description: "Target EB-T1: Attain 75% renewable (zero-carbon) electricity by 2030, and 10% [sic] by 2045 in alignment with state mandates (60% by 2030 and 100% by 2045); and maintain 98% CPA enrollment in 100% Green Rate. Baseline EB-B1: 98% enrollment in CPA in 2023."
     actions:
       - id: "EB-1a"
-        text: "Expand outreach for 100% Clean Power Alliance enrollment."
+        text: "Expand awareness and outreach efforts for 100% Clean Power Alliance enrollment."
       - id: "EB-1b"
-        text: "Connect residents and businesses to resources for installing local solar PV."
+        text: "Promote and connect residents and businesses to resources to install local solar PV systems."
       - id: "EB-1c"
-        text: "Develop resilient energy systems at City facilities and through private development, including energy storage."
+        text: "Explore opportunities to develop resilient energy systems in city facilities and through private development using new technologies, including for energy storage."
       - id: "EB-1d"
-        text: "Pursue regional partnerships on renewable energy projects and programs."
+        text: "Seek regional partnership opportunities to implement renewable energy projects and programs."
       - id: "EB-1e"
-        text: "Promote low-income energy programs (CPA, SCE, SoCalREN, SGVCOG, GRID Alternatives)."
+        text: "Promote low-income programs offered by providers (CPA, SCE, SoCalREN, SGVCOG, GRID Alternatives, etc.)."
   - id: "EB-S2"
-    title: "Increase energy efficiency in municipal buildings and operations"
-    description: "Target: cut municipal natural gas use 50% annually by 2030; upgrade all streetlights for efficiency; achieve 25% energy reductions in municipal buildings by 2030. Baseline: 11.77M therms in 2022."
+    title: "Increase energy efficiency in municipal buildings and operations."
+    description: "Target EB-T2: Reduce municipal buildings' natural gas use by 50% annually by 2030; increase energy efficiency of all streetlights in Alhambra; and achieve 25% energy reductions in municipal buildings by 2030. Baseline EB-B2: 11,765,501 therms natural gas use in 2022."
     actions:
       - id: "EB-2a"
-        text: "Work with SoCalREN on energy audits and equipment upgrades; tap SCE and CPA incentive and rebate programs."
+        text: "Work with SoCalREN to identify city facilities and operations needing retrofits or upgraded equipment to increase efficiency (e.g. conduct energy audits); utilize available incentive and rebate programs through Southern California Edison and Clean Power Alliance."
       - id: "EB-2b"
-        text: "Install smart thermostats, plugs, and fixtures with load management, dimming, and controls."
+        text: "Identify gaps for installing smart thermostats, plugs, and fixtures, with load management, dimming and controls to reduce energy use and costs."
       - id: "EB-2c"
-        text: "Explore LED and solar streetlight options for efficiency and renewables."
+        text: "Explore LED and solar streetlight options to improve lighting efficiency and renewable energy use."
   - id: "EB-S3"
-    title: "Increase energy efficiency in community buildings"
-    description: "Target: 25% energy reductions in residential and commercial buildings by 2030. Baseline (2015): residential 156M kWh / 8.1M therms; commercial 188M kWh / 3.6M therms."
+    title: "Increase energy efficiency in community buildings and operations."
+    description: "Target EB-T3: Achieve 25% energy reductions in residential and commercial buildings by 2030. Baseline EB-B3: Residential baseline 2015: 156,387,728 kWh and 8,134,202 therms. Commercial baseline 2015: 188,065,108 kWh and 3,598,904 therms."
     actions:
       - id: "EB-3a"
-        text: "Recommend energy-efficiency audits during transfer of building ownership."
+        text: "Recommend energy-efficiency audits during transfer of ownership of buildings."
       - id: "EB-3b"
-        text: "Refer residents to demonstration sites with hands-on electric equipment and appliances."
+        text: "Refer community members to demonstration sites where they can experience hands-on familiarity with electric equipment and appliances."
       - id: "EB-3c"
-        text: "Encourage upgrades for passive cooling, heating, and building envelope solutions."
+        text: "Encourage efficiency upgrades for passive cooling, heating, building envelope solutions, etc."
       - id: "EB-3d"
-        text: "Share information on upgrading or replacing electric appliances and heating systems."
+        text: "Share information and educational resources about upgrading or replacing for electric appliances and heating systems."
   - id: "EB-S4"
-    title: "Decarbonize all municipal buildings and operations"
-    description: "Target: design all new municipal buildings as fully electric; convert natural-gas heating to fully electric in 50% of existing municipal facilities by 2030, 100% by 2045."
+    title: "Decarbonize all municipal buildings and operations."
+    description: "Target EB-T4: Design all new municipally owned buildings to be fully electric; and convert natural gas heating systems to fully electric in 50% of existing, municipally owned facilities by 2030 and 100% by 2045. Baseline EB-B4: N/A."
     actions:
       - id: "EB-4a"
-        text: "Install solar, electric building infrastructure, or other renewables on all viable City-owned properties."
+        text: "Install solar energy, electric building infrastructure, or other renewable energy on all viable City-owned properties."
       - id: "EB-4b"
-        text: "Explore community solar garden sites with solar garden providers and partners."
+        text: "Explore potential sites for community solar gardens in coordination with solar garden providers and other partners."
   - id: "EB-S5"
-    title: "Decarbonize the community building stock"
-    description: "Target (existing residential): 5% electric by 2030, 75% by 2045. New residential: 15% by 2030, 75% by 2045. Same trajectory for non-residential."
+    title: "Decarbonize the community building stock (residential, commercial, industrial)."
+    description: "Target EB-T5: Existing Residential: Achieve 5% electric by 2030; 75% by 2045; new Residential: 15% electric by 2030; 75% by 2045; existing Non-Residential: 5% electric by 2030; 75% by 2045; and new Non-Residential: 15% electric by 2030; 75% by 2045. Baseline EB-B5: N/A."
     actions:
       - id: "EB-5a"
-        text: "Expand community education on energy efficiency — behavior, appliance purchases, rebates, and maintenance."
+        text: "Work with partners to expand education to the community about ways to improve energy efficiency, including behavioral changes, appliance purchases and rebates, and maintenance practices."
       - id: "EB-5b"
-        text: "Provide and promote incentives for residents transitioning to electric appliances and heating."
+        text: "Provide and promote incentives for residents to transition to electric appliances and heating systems."
       - id: "EB-5c"
-        text: "Support income-qualified residents and vulnerable businesses with electrification while keeping utility bills affordable."
+        text: "Support income-qualified residents and vulnerable businesses with electrification efforts while ensuring the affordability of ongoing utility bills."
       - id: "EB-5d"
         text: "Promote Clean Power Alliance's Solar Marketplace."
   - id: "EB-S6"
-    title: "Decarbonize transportation"
-    description: "Target: 20% community EV adoption; expand publicly accessible EV chargers citywide by 2030; 100% of new City fleet purchases zero-emission by 2030. Baseline: 6% EV adoption, 55 public chargers, 50% of new fleet purchases electric in 2024."
+    title: "Decarbonize transportation."
+    description: "Target EB-T6: Achieve 20% EV adoption communitywide; increase publicly accessible EV charging stations citywide by 2030; acquire 100% of new city fleet vehicle purchases as zero emissions by 2030. Baseline EB-B6: 6% EV adoption; 55 publicly accessible EV charging stations; 50% of new fleet vehicle purchases as electric in 2024."
     actions:
       - id: "EB-6a"
-        text: "Require EV charging stations and EV-designated parking on new development, per state building code."
+        text: "Require EV charging stations and EV-designated parking for new development, per state building code."
       - id: "EB-6b"
-        text: "Develop an EV infrastructure plan for charging and hydrogen fueling at strategic locations citywide."
+        text: "Develop an EV infrastructure plan to implement EV charging and hydrogen fueling systems at strategic locations throughout the city."
       - id: "EB-6c"
-        text: "Audit the City fleet; replace priority vehicles with electric or green-hydrogen models."
+        text: "Conduct an assessment of the city's fleet, replacing priority vehicles with electric or green hydrogen models, and transitioning all vehicles away from fossil fuels."
       - id: "EB-6d"
-        text: "Work with Cal State LA on hydrogen fueling station locations."
+        text: "Work with CSULA to identify feasible locations for installing hydrogen fueling stations at municipal and other facilities communitywide."
   - id: "EB-S7"
-    title: "Cool the community"
-    description: "Target: designate a community resilience center as a cooling hub by 2030; establish cooling requirements for new development by 2030."
+    title: "Cool the community."
+    description: "Target EB-T7: Designate a community resilience center by 2030, to serve as a cooling hub during extreme heat emergencies and to provide resources to residents; establish cooling requirements for new developments by 2030. Baseline EB-B7: N/A."
     actions:
       - id: "EB-7a"
-        text: "Evaluate every City roof undergoing repair work for green roofs, cool roofs, and climate infrastructure."
+        text: "Evaluate all City roofs undergoing repair work for green roofs, cool roofs, and climate infrastructure installation."
       - id: "EB-7b"
-        text: "Identify locations to replace pavement with permeable or cool pavement."
+        text: "Identify locations for replacing pavements with permeable surfaces or transitioning to cool pavements."
       - id: "EB-7c"
-        text: "Include mandatory cooling requirements in new construction."
+        text: "Include mandatory cooling requirements for new construction."
       - id: "EB-7d"
-        text: "Offer incentives for cool roofs and green infrastructure on private property — homes, businesses, schools."
+        text: "Explore incentive programs for home and business owners, school districts, and other local and regional property owners to increase the adoption of cool roofs and green infrastructure on private property."
       - id: "EB-7e"
-        text: "Designate public facilities as cooling centers during extreme heat — A/C, seating, refreshments, charging, Wi-Fi, first aid."
+        text: "Designate certain public facilities, such as the new community center, as cooling centers when temperatures reach extreme heat levels, with air conditioning, seating, refreshments, charging stations, emergency and first aid kits, Wi-Fi, and light entertainment."
       - id: "EB-7f"
-        text: "Evaluate misting cooling systems for outdoor spaces at the Civic Center, parks, and parking garages."
+        text: "Evaluate outdoor spaces of public facilities, including the Civic Center, parks, and parking garage areas, for installing water misting cooling systems, to help with cooling during extreme heat events."
 ---
 
-Energy use is one of Alhambra's biggest emissions sources, and the path
-forward is electrification — buildings, appliances, vehicles. Done well, it
-also means lower utility bills and better indoor and outdoor air quality.
-This sector is the largest in the plan, with seven strategies covering the
-electricity supply, building efficiency, full electrification, transportation,
-and keeping the city cool as summers get hotter.
+**Energy and Buildings Goal (EB):** Transitioning to clean, renewable energy sources and improving building efficiency to reduce fossil fuel dependence.
 
-**Local wins so far:** Two decades of efficiency projects — LED streetlight
-upgrades along major corridors, HVAC and lighting retrofits at City facilities,
-a pump audit program saving over 630,000 kWh per year, and energy-efficient
-windows installed at the Almansor gym. Alhambra reached 98% Clean Power
-Alliance enrollment in 2023.
+## Community Spotlight: The Alhambra Campus — Clean Energy Leadership
 
-**Community spotlight — The Alhambra Campus:** A LEED Gold–certified commercial
-campus on Fremont Avenue with five Bloom Energy fuel cells generating over
-75% of its electricity, EV charging, drought-tolerant landscaping, and
-water-efficient plumbing.
+This premier commercial campus on Fremont Avenue demonstrates how local businesses can lead the clean energy transition while creating economic value. LEED Gold certified since 2012, the campus features five Bloom Energy fuel cells generating over 75% of its electricity needs, saving more than $200,000 in electric costs in 2013 alone. The campus embraces comprehensive sustainability through EV charging stations, drought-tolerant landscaping, and water-efficient plumbing systems. This holistic approach reduces operational costs for tenants while serving as a model for other commercial developments, proving that sustainability and profitability work hand in hand.
