@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #001D52;
+  --color-navy-700: #133A75;
+  --color-gold: #DBB13B;
+  --color-paper: #F0F3FF;
+  --color-ink: #212121;
+  --color-ink-muted: #4A4A4A;
+
+  --font-sans: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: #ffffff;
+}

@@ -1,23 +1,29 @@
-# "Allow list" structure
+# build output
+dist/
 
-# 1. ignore everything
-*
+# generated types
+.astro/
 
-# 2. but descend into directories
-!*/
+# dependencies
+node_modules/
 
-# 3. allow python, sas programs
-!*.py
-!*.sas
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# 4. also don't ignore the README, .gitignore, or requirements.txt
-!README.md
-!.gitignore
-!requirements.txt
-!documentation/*.md
+# environment variables
+.env
+.env.production
 
-# 5. Add any other specific locations or general filetypes to allow
+# macOS
+.DS_Store
 
-# 6. go back and ignore any adhoc or TODO programs
-adhoc*
-TODO*
+# editor
+.idea/
+.vscode/
+
+# local artifacts
+.playwright-mcp/
+*.local
