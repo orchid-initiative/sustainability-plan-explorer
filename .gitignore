@@ -27,3 +27,6 @@ pnpm-debug.log*
 # local artifacts
 .playwright-mcp/
 *.local
+
+# source documents (large, fetched on demand)
+documentation/source/
