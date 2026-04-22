@@ -3,7 +3,7 @@ title: "Mobility"
 slug: "mobility"
 icon: "bike"
 color: "#C5524F"
-summary: "Streets that work for walking, biking, and transit — not just driving alone — and a city fleet that's plugging in."
+summary: "Building safe, comfortable infrastructure for walking, biking, and public transit that connects neighborhoods and reduces car dependency."
 order: 3
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-13 to 3-19; Appendix D Mobility Memo"
@@ -11,98 +11,98 @@ relatedThemes: ["energy", "air-quality", "green-space"]
 
 goals:
   - id: "M-S1"
-    title: "Make active and public transportation safer and more comfortable"
-    description: "Target: Vision Zero (eliminate traffic deaths and serious injuries); 50% of bus stops shaded by 2030, 100% by 2045; pilot a pedestrian-only street by 2030."
+    title: "Improve the comfort and safety of active and public transportation options."
+    description: "Target M-T1: Vision Zero goal, 50%/100% shaded bus stops by 2030/2045; pedestrian-only pilot street by 2030. Baseline M-B1: N/A."
     actions:
       - id: "M-1a"
-        text: "Develop a Vision Zero Action Plan with the Transportation Commission."
+        text: "Develop a Vision Zero Action Plan in collaboration with the Transportation Commission."
       - id: "M-1b"
-        text: "Re-evaluate high-collision locations every 5 years as priorities shift."
+        text: "Evaluate high-collision locations every 5 years as priorities shift."
       - id: "M-1c"
-        text: "Implement traffic-calming safety upgrades at collision hotspots."
+        text: "Identify and implement traffic-calming safety upgrades at collision hotspots."
       - id: "M-1d"
         text: "Install pedestrian improvements and amenities in Pedestrian Priority Zones."
       - id: "M-1e"
-        text: "Evaluate traffic calming and cut-through mitigation citywide."
+        text: "Evaluate traffic calming and cut-through mitigation measures citywide."
       - id: "M-1f"
         text: "Install shade structures at bus stops across the city."
       - id: "M-1g"
-        text: "Implement a Safe Routes for Seniors program per the Active Transportation Plan."
+        text: "Implement Safe Routes for Seniors program per the Active Transportation Plan (ATP)."
       - id: "M-1h"
-        text: "Pilot a car-free or pedestrian-only street by 2035."
+        text: "Explore a pilot project for designating a car-free or pedestrian-only street by 2035."
       - id: "M-1i"
-        text: "Evaluate active transportation corridors with bike lanes and pedestrian amenities along Main, Front, and other streets."
+        text: "Evaluate concepts to create active transportation corridors with enhanced pedestrian amenities, increased landscape areas, and bike lanes along Main Street, Front Street and other locations."
   - id: "M-S2"
-    title: "Connect the city — better bike, walk, and transit links"
-    description: "Target: deliver the Active Transportation Plan's 20-mile bike network, expand bus connectivity, and improve pedestrian infrastructure citywide."
+    title: "Enhance transportation connectivity throughout the city."
+    description: "Target M-T2: Implement ATP's 20-mile bike network, expand bus service connectivity, and improve pedestrian infrastructure throughout the city. Baseline M-B2: N/A."
     actions:
       - id: "M-2a"
-        text: "Secure funding to build out the ATP's 20-mile bike network, prioritizing protected (Class I/IV) facilities."
+        text: "Secure funding to implement ATP's 20-mile bike network, prioritize Class I/IV project."
       - id: "M-2b"
-        text: "Inventory missing pedestrian/trail connections; partner with neighboring cities and the San Gabriel Valley COG to fill gaps between cities."
+        text: "Develop an inventory of missing pedestrian/trail connections. Partner neighboring cities and San Gabriel Valley Council of Governments to enhance intercity active transportation network connectivity."
       - id: "M-2c"
-        text: "Prioritize bike and pedestrian links to parks and open space."
+        text: "Prioritize bike/pedestrian links to parks and open space."
       - id: "M-2d"
-        text: "Build infrastructure like protected bike lanes, multi-use paths, and bridges."
+        text: "Implement infrastructure like protected bike lanes, multi-use paths, and bridges."
       - id: "M-2e"
-        text: "Require new development to enhance adjacent bike, pedestrian, and transit infrastructure."
+        text: "Ensure new developments enhance adjacent infrastructure (bike, pedestrian, transit)."
       - id: "M-2f"
-        text: "Run an annual GIS study to track resident proximity to high-quality bike facilities."
+        text: "Conduct annual GIS study to track population proximity to high-quality bike facilities."
       - id: "M-2g"
-        text: "Expand Alhambra Community Transit (ACT Bus) — more routes, more frequency, broader coverage."
+        text: "Expand Alhambra Community Transit (ACT Bus) service by increasing routes, frequency, and coverage to better connect neighborhoods and key destinations throughout the city."
   - id: "M-S3"
-    title: "Cut car dependence — more transit, more sharing, fewer solo trips"
-    description: "Target: 15% reduction in vehicle miles traveled by 2030; active commuting at 10% by 2030, 15% by 2045."
+    title: "Increase mobility services and promote a cultural shift away from car-dependence."
+    description: "Target M-T3: 15% VMT reduction by 2030; 10%/15% active commuting by 2030/2045. Baseline M-B3: VMT reduction from baseline year 2025."
     actions:
       - id: "M-3a"
-        text: "Track VMT reductions using SGVCOG's new thresholds."
+        text: "Monitor VMT reductions using San Gabriel Valley Council of Governments' (SGVCOG) new thresholds as a reference."
       - id: "M-3b"
-        text: "Incentivize active modes for local trips — groceries, shopping, dining out."
+        text: "Explore programs to incentivize active modes of travel for local trips, such as for grocery, shopping, and restaurants outings."
       - id: "M-3c"
-        text: "Partner with GO SGV and Metro Bikes to make e-bikes more available and affordable."
+        text: "Partner with GO SGV and Metro Bikes to make e-bikes more available and affordable to local residents and workers."
       - id: "M-3d"
-        text: "Pilot curb-space uses for bike share, scooter share, and pickup/delivery in select locations."
+        text: "Work with City staff for qualitative evaluation of a handful of pilot locations in the city where emerging mobility services are used or where curb space could be used for functions such as bike share, scooter share, and/or the pick-up and delivery of goods or people."
       - id: "M-3e"
-        text: "Implement first/last-mile improvements along key roadways and destinations."
+        text: "Identify and implement first/last-mile improvements along key roadways and destinations."
       - id: "M-3f"
-        text: "Address barriers to AUSD students using their school travel vouchers; explore a student transit pass for ACT Bus."
+        text: "Identify barriers to Alhambra Unified School District (AUSD) students utilizing their school travel vouchers for bus travel to and from school. Evaluate student transit pass for Alhambra Community Transit. Explore ways to increase transit services and better serve AUSD students, faculty and staff."
       - id: "M-3g"
-        text: "Explore subsidized transit passes or a Guaranteed Ride Home program for City staff."
+        text: "Explore the feasibility of incentivizing City staff utilization of public transportation and/or carpooling to/from work (e.g. subsidized, discounted, or free transit passes, vouchers or a Guaranteed Ride Home [GRH] program)."
       - id: "M-3h"
-        text: "Analyze ridership; improve access and ridership at the busiest stops."
+        text: "Conduct ridership analysis and evaluate a sampling of bus stops based on highest ridership locations to improve access to transit and identify strategies to increase local ridership."
       - id: "M-3i"
-        text: "Prioritize transit service in the five Disadvantaged Community tracts on the western side, including Garfield/Valley and Almansor Park."
+        text: "Prioritize the provision of transit service and facilities within the five Disadvantaged Community tracts located on the western portion of the city, including Garfield/Valley and Almansor Park, neither of which has access to transit service currently."
       - id: "M-3j"
-        text: "Increase transit service in underserved areas with limited or no current service."
+        text: "Increase transit service in underserved areas that have limited or no transit service."
       - id: "M-3k"
-        text: "Coordinate with Metro and SGVCOG on the SGV Bus Rapid Transit project."
+        text: "Coordinate with Metro, SGVCOG, and adjacent agencies for advancing the SGV BRT project, such as accessing grant funding, developing preliminary design, and conducting community engagement."
       - id: "M-3l"
-        text: "Coordinate with Metrolink and Metro on the high-speed rail / regional rail connection."
+        text: "Continue regular coordination with Metrolink and Metro regarding the status of the high-peed-rail [sic] project, which will connect Union Station to Rancho Cucamonga through a Metrolink Regional Rail (currently the San Bernadino Line). Explore potential for the project to use the San Bernadino Line with a station next to the city, and options for people to travel from Alhambra to the current and future stations. Coordinate with Metrolink and Metro to support high-density access to the future BRT, as well as current and future regional rail stations."
       - id: "M-3m"
-        text: "Study contactless payment for Alhambra Community Transit."
+        text: "Study the costs and benefits of a contactless payment system for Alhambra Community Transit."
       - id: "M-3n"
-        text: "Increase ACT Bus blue-line frequency in partnership with Cal State LA."
+        text: "Study increased partnership with California State University, Los Angeles to increase frequency along the Alhambra Community Transit blue line route to better serve students, faculty, and employees living in Alhambra."
       - id: "M-3o"
-        text: "Coordinate land use and transportation — direct residential growth toward areas with non-vehicle infrastructure."
+        text: "Coordinate land use and transportation by targeting increases in residential development with non-vehicle infrastructure that connects to nearby destinations and the regional transit system."
       - id: "M-3p"
-        text: "Explore an EV car-share program (e.g., Blink)."
+        text: "Explore opportunities for introducing an EV-car share program, such as Blink."
       - id: "M-3q"
-        text: "Develop a transportation demand management (TDM) program — car-share, bike-share, ride-share."
+        text: "Develop a transportation demand management (TDM) program to increase car sharing, bike sharing, and ride sharing."
       - id: "M-3r"
-        text: "Reduce VMT through parking pricing and zoning that lowers parking requirements in new development."
+        text: "Reduce VMT through parking strategies such as pricing and amending zoning codes to reduce requirements in new development projects."
 ---
 
-82% of Alhambra residents still drive alone to work — higher than both the
-city's 2011 rate and the LA County average. Five major corridors carry most of
-that traffic, and transportation produces 52% of the city's greenhouse gas
-emissions. The other side of the story: the city has secured $241M in mobility
-improvements and adopted its first comprehensive active transportation plan.
+The City of Alhambra's transportation system tells the story of a community at a crossroads. While 82% of residents still drive alone to work, higher than both the city's 2011 rate and the county average, the City of Alhambra is actively building the foundation for transformative change. With five major corridors carrying most of the city's traffic and transit serving over 2,800 daily riders at the busiest stops, the city faces both the challenge of car dependency and the opportunity of existing infrastructure. The stark reality that the transportation sector produces 52% of the city's greenhouse gas emissions underscores the urgency. Recent achievements like securing $241 million in mobility improvements and adopting the city's first comprehensive active transportation plan demonstrate the City of Alhambra's commitment to creating a more sustainable, equitable future for how the city gets around.
 
-**Local wins so far:** *Walk, Bike, Move Alhambra!* (March 2024) lays out a
-50.2-mile proposed bikeway network. The Local Road Safety Plan (March 2023)
-identifies collision hotspots. The City has committed to 50% of new fleet
-purchases being electric starting 2024.
+**Mobility Goal (M):** Building safe, comfortable infrastructure for walking, biking, and public transit that connects neighborhoods and reduces car dependency.
 
-**Community spotlight — Senior Ride:** Free curb-to-curb service for
-residents 60+ and people with disabilities of any age, with citywide coverage
-plus medical-appointment service up to 2 miles past city limits.
+## Key Achievements
+
+- Walk, Bike, Move Alhambra! Plan adopted (March 2024): 50.2-mile proposed bikeway network.
+- Local Road Safety Plan completed (March 2023): identifies collision hotspots and safety improvements.
+- Fleet electrification commitment: 50% of new fleet purchases electric starting 2024.
+- Advancing Alhambra initiative: comprehensive plan to improve traffic flow and safety.
+
+## Community Spotlight: Senior Ride — Transportation Equity in Action
+
+Alhambra's free Senior Ride provides curb-to-curb service for residents 60+ and individuals with disabilities of any age. The program offers citywide coverage plus service up to 2 miles beyond city limits for medical appointments, ensuring healthcare access is never limited by transportation barriers. Flexible options include subscription service for regular appointments and group grocery trips connecting seniors to essential services and social activities. The city is exploring electric vehicle integration and expanded hours, making Senior Ride a model for innovative, responsive public transportation.
