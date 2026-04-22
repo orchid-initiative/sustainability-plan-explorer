@@ -3,7 +3,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   output: 'static',
-  site: 'https://alhambraca.github.io/sustainability-plan',
+  site: 'https://orchid-initiative.github.io',
+  base: 'sustainability-plan-explorer',
   vite: {
     plugins: [tailwindcss()],
   },
