@@ -13,7 +13,12 @@ relatedThemes: ["green-space", "energy"]
 goals:
   - id: "W-S1"
     title: "Improve local water systems and protect water resource."
-    description: "Target W-T1: Increase stormwater capture and reuse for non-potable purposes, groundwater recharge. Baseline W-B1: N/A."
+    target:
+      id: "W-T1"
+      text: "Increase stormwater capture and reuse for non-potable purposes, groundwater recharge."
+    baseline:
+      id: "W-B1"
+      text: "N/A."
     actions:
       - id: "W-1a"
         text: "Upgrade water treatment facilities with advanced technology for increased efficiency of filtration and disinfection."
@@ -29,7 +34,12 @@ goals:
         text: "Identify improvements or gaps for metering, such as increasing smart water meters and/or leak detection sensors across the distribution network to improve capacity, and to identify and prevent water losses, as well as monitor consumption more efficiently."
   - id: "W-S2"
     title: "Conserve water use throughout the community."
-    description: "Target W-T2: Increase installation of greywater systems in commercial and residential buildings; electrify all municipal water facilities and infrastructure. Baseline W-B2: N/A."
+    target:
+      id: "W-T2"
+      text: "Increase installation of greywater systems in commercial and residential buildings; electrify all municipal water facilities and infrastructure."
+    baseline:
+      id: "W-B2"
+      text: "N/A."
     actions:
       - id: "W-2a"
         text: "Replace flush and flow fixtures in municipal facilities to improve water efficiency."

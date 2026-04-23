@@ -13,7 +13,12 @@ relatedThemes: ["green-economy", "food", "sustainability-culture"]
 goals:
   - id: "WR-S1"
     title: "Increase waste minimization and diversion efforts."
-    description: "Target WR-T1: Achieve 100% participation from residences and commercial businesses for the city's organics collection services (Organic Waste Disposal Reduction Ordinance). Baseline WR-B1: N/A."
+    target:
+      id: "WR-T1"
+      text: "Achieve 100% participation from residences and commercial businesses for the city's organics collection services (Organic Waste Disposal Reduction Ordinance)."
+    baseline:
+      id: "WR-B1"
+      text: "N/A."
     actions:
       - id: "WR-1a"
         text: "Continue promoting and expanding awareness of community recycling services and public sorting bins (e.g., battery and cell phone drop off at city facilities, e-waste pickup, and holiday tree pick-up), to increase education for responsible waste practices and use of receptables. Explore expanding materials accepted for drop-off at public facilities and pick-up by Republic Services."
@@ -33,7 +38,12 @@ goals:
         text: "Create resources and incentives for businesses to achieve zero waste certification."
   - id: "WR-S2"
     title: "Increase organics diversion and recovery."
-    description: "Target WR-T2: Achieve 75% diversion of organic waste, in alignment with state Senate Bill 1383 goals. Baseline WR-B2: 43% diversion in 2022."
+    target:
+      id: "WR-T2"
+      text: "Achieve 75% diversion of organic waste, in alignment with state Senate Bill 1383 goals."
+    baseline:
+      id: "WR-B2"
+      text: "43% diversion in 2022."
     actions:
       - id: "WR-2a"
         text: "Increase collaboration with Republic Services for outreach and education to residents, to achieve maximum participation in organic waste collection service."
@@ -47,7 +57,12 @@ goals:
         text: "Partner with Green Oceanside Kitchen and One Kitchen Collaborative to offer food recovery and preservation workshops and digital resources."
   - id: "WR-S3"
     title: "Promote a culture that takes pride in sharing, repairing, reusing, reducing, and recycling."
-    description: "Target WR-T3: Hold an annual skills-sharing workshop to promote reuse and repair of materials; provide drinking fountains and water filling stations at all city facilities by 2030; and increase the availability of public fountains and stations at parks, at bus stops, and in public plazas. Baseline WR-B3: N/A."
+    target:
+      id: "WR-T3"
+      text: "Hold an annual skills-sharing workshop to promote reuse and repair of materials; provide drinking fountains and water filling stations at all city facilities by 2030; and increase the availability of public fountains and stations at parks, at bus stops, and in public plazas."
+    baseline:
+      id: "WR-B3"
+      text: "N/A."
     actions:
       - id: "WR-3a"
         text: "Stimulate remanufacturing, repair, and sharing economies through collaborations with businesses and makerspaces to promote resource efficiency, including hosting LA County's LA Fixit Clinic repair events."
