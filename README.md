@@ -1,59 +1,30 @@
 # Sustainability Plan Explorer
 
-## [orchid-initiative.github.io/sustainability-plan-explorer](https://orchid-initiative.github.io/sustainability-plan-explorer/)
+A phone-friendly companion to Alhambra's **March 2026 Sustainability Plan Public Draft** — built to help neighbors dig in and get involved. Made by [Orchid Initiative](https://www.orchidinitiative.com).
 
-### Summary
-A mobile-friendly, clickable interface for exploring a city sustainability plan.
+**Live site:** [orchid-initiative.github.io/sustainability-plan-explorer](https://orchid-initiative.github.io/sustainability-plan-explorer/)
 
-This project is an **unofficial prototype** designed to make a long-form public document easier to navigate, especially on mobile devices.
+## Why we're building this
 
-## ⚠️ Important note
+- **For Orchid Initiative.** A pilot for how we want to run AI-assisted coding projects with interns — the structure, tooling, and mentorship we figure out here will shape future civic-tech work. Starting small, with one project and one person, lets us learn before we scale.
+- **For Alhambra residents.** I live in Alhambra, and the March 2026 Public Draft took a lot of thoughtful work from City staff, consultants, and residents who shaped it through community engagement. A phone-friendly way to browse that draft means more of my neighbors can actually dig in — read what's being proposed, share it, and get involved while it's still a draft.
+- **For the people building this plan.** Alhambra's City staff and sustainability consultants have put real thought into the March 2026 Draft. We hope this tool helps them reach more neighbors and bring in more community feedback.
 
-This is **not an official city website**.
+  If it's useful, we'd love to turn this into a longer-term partnership with the sustainability team — expanding into things like discussion threads, links to city updates, or progress tracking as the plan plays out. We're also happy to hand it off entirely. This is offered freely.
 
-It is an independent prototype exploring alternative ways to present and navigate public documents.
+## Built with Claude Code
 
-## 🔍 What this is
+This site was built almost entirely through conversation with [Claude Code](https://claude.com/claude-code), Anthropic's coding agent. It's the first project piloting the [internship structure](https://orchid-initiative.github.io/Internships/) we're developing. If you're curious about the process, the commit history and [PROJECT_CHARTER.md](documentation/PROJECT_CHARTER.md) are the best places to look.
 
-- A section-by-section interface for browsing the plan  
-- Designed for quick navigation instead of PDF scrolling  
-- Intended to make the document easier to access and revisit  
+## About the content
 
-All content is sourced from the official document:  
-https://www.alhambraca.gov/DocumentCenter/View/7621/Alhambra-Sustainability-Plan-Draft
+Every sector page is a faithful adaptation of text from the [March 2026 Public Draft](https://www.alhambraca.gov/DocumentCenter/View/7621/Alhambra-Sustainability-Plan-Draft) — goals, strategies, targets, and actions are kept close to the source. Community spotlights and key achievements are pulled verbatim.
 
-### Status
-- **Phase:** Active development — first build complete.
-- **Done:** Astro 5 scaffold, Zod-validated content schema, Alhambra brand design system, home page with theme grid, theme detail pages with no-JS accordions, real content extracted for all 9 sectors of the March 2026 Public Draft.
-- **Up next:** Web Share / Open Graph metadata, accessibility audit (axe-core, focus states, Google Translate widget), GitHub Pages deployment, content tone-pass with stakeholders.
+This is not an official City of Alhambra website. If anything here misrepresents the plan, open a [GitHub issue](https://github.com/orchid-initiative/sustainability-plan-explorer/issues) and we'll fix it.
 
-### General Information
-- Want the project background, goals, and scope? See the [Project Charter](documentation/PROJECT_CHARTER.md).
-- Are you a non-developer who needs to update the site's content? See the [Content Update Guide](documentation/CONTENT_GUIDE.md).
-- Ready to contribute? Reach out to contact@orchidinitiative.com.
-- Bug reports or feature requests? Use the GitHub Issues page on this repo.
+## Getting involved
 
-### Repository Contents
-- `src/` — Astro site source: pages, layouts, components, content schema, design tokens.
-- `src/content/themes/` — One Markdown file per sustainability sector. **Edit these to update the site's content.**
-- `public/` — Static assets served as-is (favicon, etc.).
-- `documentation/` — Project charter and content-update guide.
+A few ways to reach us:
 
-### Running Locally
-Requires Node.js 22.12+.
-
-```sh
-npm install
-npm run dev      # local dev server at http://localhost:4321
-npm run build    # production build to ./dist/
-npm run preview  # serve the production build locally
-```
-
-The build is **strict** — a malformed theme file (missing required field, invalid color, bad slug) will fail the build with a clear error pointing at the file. This is intentional: it prevents broken pages from ever being deployed.
-
-### Tech Stack
-- **[Astro 5](https://astro.build/)** — static site generator
-- **[Tailwind CSS 4](https://tailwindcss.com/)** — utility-first styling with brand tokens
-- **[Zod](https://zod.dev/)** — content schema validation (via Astro's content collections)
-- **Markdown + YAML frontmatter** — content storage, editable in any text editor
-- **GitHub Pages** — static hosting (planned)
+- Open a [GitHub issue](https://github.com/orchid-initiative/sustainability-plan-explorer/issues) to flag something wrong, missing, or confusing.
+- Email contact@orchidinitiative.com for anything else.
