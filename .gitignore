@@ -30,3 +30,10 @@ pnpm-debug.log*
 
 # source documents (large, fetched on demand)
 documentation/source/
+
+# vault — private folders (journal and comms stay local)
+vault/01-Journal/
+vault/03-Comms/
+
+# vault — Obsidian app state (per-user)
+vault/.obsidian/
