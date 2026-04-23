@@ -6,7 +6,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = "Alhambra's Sustainability Plan, made browsable." } = Astro.props;
+const { title, description = "A community explorer for Alhambra's Sustainability Plan — an independent prototype by Orchid Initiative." } = Astro.props;
 ---
 
 <!doctype html>
@@ -26,19 +26,29 @@ const { title, description = "Alhambra's Sustainability Plan, made browsable." }
   </head>
   <body class="min-h-screen flex flex-col bg-white text-ink">
     <header class="bg-navy text-paper">
-      <div class="mx-auto max-w-5xl px-4 py-4 flex items-center gap-3">
-        <a href={import.meta.env.BASE_URL} class="flex items-center gap-3 no-underline">
-          <span
-            class="inline-flex h-9 w-9 items-center justify-center rounded-full bg-gold text-navy font-bold"
-            aria-hidden="true"
-          >A</span>
-          <span class="leading-tight">
-            <span class="block text-xs uppercase tracking-wider opacity-80">City of Alhambra</span>
-            <span class="block text-base font-semibold">Sustainability Plan</span>
-          </span>
+      <div class="mx-auto max-w-5xl px-4 py-4">
+        <a href={import.meta.env.BASE_URL} class="inline-block no-underline leading-tight">
+          <span class="block text-xs uppercase tracking-wider opacity-80">For Alhambra's Sustainability Plan</span>
+          <span class="block text-base font-semibold">Community Explorer</span>
         </a>
       </div>
     </header>
+
+    <div class="bg-gold/15 border-b border-gold/40 text-ink" role="note">
+      <div class="mx-auto max-w-5xl px-4 py-2 text-sm">
+        An independent prototype by <a
+          href="https://www.orchidinitiative.com"
+          class="underline hover:opacity-70"
+          target="_blank"
+          rel="noopener"
+        >Orchid Initiative</a>. <a
+          href="https://www.alhambraca.gov/DocumentCenter/View/7621/Alhambra-Sustainability-Plan-Draft"
+          class="underline hover:opacity-70"
+          target="_blank"
+          rel="noopener"
+        >Alhambra's official plan is the source of record →</a>
+      </div>
+    </div>
 
     <main class="flex-1">
       <slot />
@@ -47,7 +57,13 @@ const { title, description = "Alhambra's Sustainability Plan, made browsable." }
     <footer class="bg-navy text-paper mt-12">
       <div class="mx-auto max-w-5xl px-4 py-6 text-sm">
         <p class="opacity-90">
-          A community engagement project drawing on the City of Alhambra's
+          Built by <a
+            href="https://www.orchidinitiative.com"
+            class="underline hover:text-gold"
+            target="_blank"
+            rel="noopener"
+          >Orchid Initiative</a> as an unofficial prototype.
+          Source content © City of Alhambra's
           <a
             href="https://www.alhambraca.gov/DocumentCenter/View/7621/Alhambra-Sustainability-Plan-Draft"
             class="underline hover:text-gold"
@@ -55,7 +71,6 @@ const { title, description = "Alhambra's Sustainability Plan, made browsable." }
             rel="noopener"
           >Sustainability Plan Draft</a>.
         </p>
-        <p class="opacity-70 mt-2">© City of Alhambra</p>
       </div>
     </footer>
   </body>
