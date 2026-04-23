@@ -1,6 +1,6 @@
 // src/content.config.ts
 // Astro 5 content collection configuration with Zod schema validation.
-// Validates every file in src/content/themes/*.md at build time.
+// Validates every file in src/content/sectors/*.md at build time.
 import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
@@ -30,8 +30,8 @@ const goalSchema = z.object({
   actions: z.array(actionSchema),
 });
 
-const themes = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/themes' }),
+const sectors = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/sectors' }),
   schema: z.object({
     title: z.string(),
     friendlyName: z.string().optional(),
@@ -54,8 +54,8 @@ const themes = defineCollection({
     goals: z.array(goalSchema),
     lastUpdated: z.coerce.date(),
     source_reference: z.string(),
-    relatedThemes: z.array(z.string()).default([]),
+    relatedSectors: z.array(z.string()).default([]),
   }),
 });
 
-export const collections = { themes };
+export const collections = { sectors };

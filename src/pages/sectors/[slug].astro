@@ -1,29 +1,29 @@
 ---
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import ThemeIcon from "../../components/ThemeIcon.astro";
+import SectorIcon from "../../components/SectorIcon.astro";
 
 export async function getStaticPaths() {
-  const themes = await getCollection("themes");
-  return themes.map((theme) => ({
-    params: { slug: theme.data.slug },
-    props: { theme },
+  const sectors = await getCollection("sectors");
+  return sectors.map((sector) => ({
+    params: { slug: sector.data.slug },
+    props: { sector },
   }));
 }
 
-const { theme } = Astro.props;
-const { Content } = await render(theme);
+const { sector } = Astro.props;
+const { Content } = await render(sector);
 
-const allThemes = await getCollection("themes");
-const related = (theme.data.relatedThemes ?? [])
-  .map((slug) => allThemes.find((t) => t.data.slug === slug))
-  .filter((t): t is NonNullable<typeof t> => Boolean(t));
+const allSectors = await getCollection("sectors");
+const related = (sector.data.relatedSectors ?? [])
+  .map((slug) => allSectors.find((s) => s.data.slug === slug))
+  .filter((s): s is NonNullable<typeof s> => Boolean(s));
 ---
 
-<BaseLayout title={`${theme.data.title} — Alhambra Sustainability Plan`} description={theme.data.summary}>
+<BaseLayout title={`${sector.data.title} — Alhambra Sustainability Plan`} description={sector.data.summary}>
   <nav aria-label="Breadcrumb" class="bg-paper">
     <div class="mx-auto max-w-3xl px-4 py-3 text-sm">
-      <a href={import.meta.env.BASE_URL} class="text-navy underline hover:text-navy/70">← All themes</a>
+      <a href={import.meta.env.BASE_URL} class="text-navy underline hover:text-navy/70">← All sectors</a>
     </div>
   </nav>
 
@@ -31,20 +31,20 @@ const related = (theme.data.relatedThemes ?? [])
     <header class="flex items-start gap-4">
       <span
         class="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-xl text-white"
-        style={`background-color: ${theme.data.color}`}
+        style={`background-color: ${sector.data.color}`}
       >
-        <ThemeIcon name={theme.data.icon} class="h-8 w-8" />
+        <SectorIcon name={sector.data.icon} class="h-8 w-8" />
       </span>
       <div>
         <p class="text-xs font-semibold uppercase tracking-wider text-ink-muted">
-          {theme.data.themeGroup}
+          {sector.data.themeGroup}
         </p>
         <h1 class="text-2xl sm:text-3xl font-semibold text-navy leading-tight">
-          {theme.data.title}
+          {sector.data.title}
         </h1>
-        {theme.data.friendlyName && (
+        {sector.data.friendlyName && (
           <p class="mt-1 text-sm font-medium text-ink-muted">
-            {theme.data.friendlyName}
+            {sector.data.friendlyName}
           </p>
         )}
       </div>
@@ -52,11 +52,11 @@ const related = (theme.data.relatedThemes ?? [])
 
     <aside
       class="mt-6 rounded-xl border-l-4 bg-paper p-4"
-      style={`border-color: ${theme.data.color}`}
+      style={`border-color: ${sector.data.color}`}
       aria-label="Sector goal"
     >
       <p class="text-xs font-semibold uppercase tracking-wider text-ink-muted">Goal</p>
-      <p class="mt-1 text-base text-navy">{theme.data.summary}</p>
+      <p class="mt-1 text-base text-navy">{sector.data.summary}</p>
     </aside>
 
     <div class="prose-body mt-6 text-ink [&_p]:mt-4 [&_p]:leading-relaxed [&_p:first-child]:mt-0 [&_h2]:mt-10 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-navy [&_ul]:mt-3 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-2 [&_li]:leading-relaxed [&_strong]:text-navy">
@@ -67,13 +67,13 @@ const related = (theme.data.relatedThemes ?? [])
       <h2 id="goals-heading" class="text-xl font-semibold text-navy">Goals</h2>
       <ul class="mt-3 space-y-3">
         {
-          theme.data.goals.map((goal) => (
+          sector.data.goals.map((goal) => (
             <li>
               <details class="group rounded-xl border border-navy/10 bg-white open:shadow-sm">
                 <summary class="flex cursor-pointer list-none items-start gap-3 p-4 focus-visible:outline-2 focus-visible:outline-navy focus-visible:outline-offset-2 rounded-xl">
                   <span
                     class="mt-1 inline-block h-2 w-2 shrink-0 rounded-full"
-                    style={`background-color: ${theme.data.color}`}
+                    style={`background-color: ${sector.data.color}`}
                     aria-hidden="true"
                   />
                   <span class="flex-1">
@@ -136,7 +136,7 @@ const related = (theme.data.relatedThemes ?? [])
 
     <section class="mt-8 rounded-xl bg-paper p-4 text-sm" aria-labelledby="source-heading">
       <h2 id="source-heading" class="font-semibold text-navy">Source</h2>
-      <p class="mt-1 text-ink">{theme.data.source_reference}</p>
+      <p class="mt-1 text-ink">{sector.data.source_reference}</p>
       <p class="mt-2">
         <a
           href="https://www.alhambraca.gov/DocumentCenter/View/7621/Alhambra-Sustainability-Plan-Draft"
@@ -146,7 +146,7 @@ const related = (theme.data.relatedThemes ?? [])
         >Open the full Sustainability Plan Draft (PDF) →</a>
       </p>
       <p class="mt-2 text-xs text-ink-muted">
-        Last updated {theme.data.lastUpdated.toISOString().slice(0, 10)}
+        Last updated {sector.data.lastUpdated.toISOString().slice(0, 10)}
       </p>
     </section>
 
@@ -154,20 +154,20 @@ const related = (theme.data.relatedThemes ?? [])
       related.length > 0 && (
         <section class="mt-8" aria-labelledby="related-heading">
           <h2 id="related-heading" class="text-xl font-semibold text-navy">
-            Related themes
+            Related sectors
           </h2>
           <ul class="mt-3 grid grid-cols-2 gap-3">
             {related.map((r) => (
               <li>
                 <a
-                  href={`${import.meta.env.BASE_URL}themes/${r.data.slug}/`}
+                  href={`${import.meta.env.BASE_URL}sectors/${r.data.slug}/`}
                   class="flex items-center gap-3 rounded-xl border border-navy/10 bg-white p-3 hover:border-navy/30 hover:shadow-sm focus-visible:outline-2 focus-visible:outline-navy focus-visible:outline-offset-2"
                 >
                   <span
                     class="inline-flex h-9 w-9 items-center justify-center rounded-lg text-white"
                     style={`background-color: ${r.data.color}`}
                   >
-                    <ThemeIcon name={r.data.icon} class="h-5 w-5" />
+                    <SectorIcon name={r.data.icon} class="h-5 w-5" />
                   </span>
                   <span class="text-sm font-semibold text-navy">{r.data.title}</span>
                 </a>

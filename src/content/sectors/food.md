@@ -9,7 +9,7 @@ summary: "Supporting community gardens, urban agriculture, farmers markets, and 
 order: 2
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-8 to 3-12"
-relatedThemes: ["green-space", "sustainability-culture", "waste"]
+relatedSectors: ["green-space", "sustainability-culture", "waste"]
 
 goals:
   - id: "F-S1"

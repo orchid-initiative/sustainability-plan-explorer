@@ -8,7 +8,7 @@ summary: "Moving toward zero waste through enhanced recycling, composting, waste
 order: 9
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-52 to 3-57"
-relatedThemes: ["green-economy", "food", "sustainability-culture"]
+relatedSectors: ["green-economy", "food", "sustainability-culture"]
 
 goals:
   - id: "WR-S1"

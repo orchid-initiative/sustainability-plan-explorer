@@ -8,7 +8,7 @@ summary: "Supporting local businesses in adopting sustainable practices, attract
 order: 8
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-45 to 3-51"
-relatedThemes: ["waste", "sustainability-culture", "food"]
+relatedSectors: ["waste", "sustainability-culture", "food"]
 
 goals:
   - id: "GE-S1"

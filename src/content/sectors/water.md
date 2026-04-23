@@ -8,7 +8,7 @@ summary: "Implementing advanced stormwater management, promoting conservation pr
 order: 6
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-34 to 3-38"
-relatedThemes: ["green-space", "energy"]
+relatedSectors: ["green-space", "energy"]
 
 goals:
   - id: "W-S1"
