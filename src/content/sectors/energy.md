@@ -8,7 +8,7 @@ summary: "Transitioning to clean, renewable energy sources and improving buildin
 order: 5
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-26 to 3-33"
-relatedThemes: ["mobility", "air-quality", "water"]
+relatedSectors: ["mobility", "air-quality", "water"]
 
 goals:
   - id: "EB-S1"

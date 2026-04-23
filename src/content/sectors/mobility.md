@@ -9,7 +9,7 @@ summary: "Building safe, comfortable infrastructure for walking, biking, and pub
 order: 3
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-13 to 3-19; Appendix D Mobility Memo"
-relatedThemes: ["energy", "air-quality", "green-space"]
+relatedSectors: ["energy", "air-quality", "green-space"]
 
 goals:
   - id: "M-S1"

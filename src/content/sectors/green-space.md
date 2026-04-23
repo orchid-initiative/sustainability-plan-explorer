@@ -9,7 +9,7 @@ summary: "Creating more parks, tree canopy coverage, and green infrastructure th
 order: 1
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-3 to 3-7"
-relatedThemes: ["water", "mobility", "food"]
+relatedSectors: ["water", "mobility", "food"]
 
 goals:
   - id: "GS-S1"

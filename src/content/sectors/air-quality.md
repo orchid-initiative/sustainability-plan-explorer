@@ -8,7 +8,7 @@ summary: "Reducing local pollution sources through transportation improvements, 
 order: 7
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-39 to 3-43"
-relatedThemes: ["mobility", "energy", "sustainability-culture"]
+relatedSectors: ["mobility", "energy", "sustainability-culture"]
 
 goals:
   - id: "AQ-S1"

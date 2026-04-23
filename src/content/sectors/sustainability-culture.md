@@ -8,7 +8,7 @@ summary: "Fostering community-wide environmental awareness, education programs, 
 order: 4
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-20 to 3-24"
-relatedThemes: ["food", "green-economy", "air-quality"]
+relatedSectors: ["food", "green-economy", "air-quality"]
 
 goals:
   - id: "SC-S1"
