@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from "astro:content";
+import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ThemeIcon from "../../components/ThemeIcon.astro";
 
@@ -12,7 +12,6 @@ export async function getStaticPaths() {
 }
 
 const { theme } = Astro.props;
-const { Content } = await render(theme);
 
 const allThemes = await getCollection("themes");
 const related = (theme.data.relatedThemes ?? [])
@@ -36,16 +35,50 @@ const related = (theme.data.relatedThemes ?? [])
         <ThemeIcon name={theme.data.icon} class="h-8 w-8" />
       </span>
       <div>
+        <p class="text-xs font-semibold uppercase tracking-wider text-ink-muted">
+          {theme.data.themeGroup}
+        </p>
         <h1 class="text-2xl sm:text-3xl font-semibold text-navy leading-tight">
           {theme.data.title}
         </h1>
-        <p class="mt-2 text-base text-ink">{theme.data.summary}</p>
+        <p class="mt-1 text-sm font-medium text-ink-muted">
+          {theme.data.friendlyName}
+        </p>
       </div>
     </header>
 
-    <div class="mt-6 prose prose-neutral max-w-none text-ink">
-      <Content />
-    </div>
+    <p class="mt-6 text-base text-ink leading-relaxed">{theme.data.intro}</p>
+
+    <aside
+      class="mt-6 rounded-xl border-l-4 bg-paper p-4"
+      style={`border-color: ${theme.data.color}`}
+      aria-label="Sector goal"
+    >
+      <p class="text-xs font-semibold uppercase tracking-wider text-ink-muted">Goal</p>
+      <p class="mt-1 text-base text-navy">{theme.data.summary}</p>
+    </aside>
+
+    {
+      theme.data.keyAchievements.length > 0 && (
+        <section class="mt-8" aria-labelledby="achievements-heading">
+          <h2 id="achievements-heading" class="text-xl font-semibold text-navy">
+            Key Achievements
+          </h2>
+          <ul class="mt-3 space-y-2">
+            {theme.data.keyAchievements.map((item) => (
+              <li class="flex gap-3 text-sm text-ink">
+                <span
+                  class="mt-1 inline-block h-2 w-2 shrink-0 rounded-full"
+                  style={`background-color: ${theme.data.color}`}
+                  aria-hidden="true"
+                />
+                <span class="flex-1 leading-relaxed">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
 
     <section class="mt-8" aria-labelledby="goals-heading">
       <h2 id="goals-heading" class="text-xl font-semibold text-navy">Goals</h2>
@@ -61,42 +94,76 @@ const related = (theme.data.relatedThemes ?? [])
                     aria-hidden="true"
                   />
                   <span class="flex-1">
-                    <span class="block font-semibold text-navy">{goal.title}</span>
-                    {goal.description && (
-                      <span class="mt-1 block text-sm text-ink-muted">
-                        {goal.description}
-                      </span>
-                    )}
+                    <span class="block font-mono text-xs uppercase tracking-wider text-ink-muted">
+                      {goal.id}
+                    </span>
+                    <span class="mt-1 block font-semibold text-navy">{goal.title}</span>
                   </span>
                   <span
                     class="text-navy/60 transition-transform group-open:rotate-180"
                     aria-hidden="true"
                   >▾</span>
                 </summary>
-                <div class="border-t border-navy/10 px-4 py-3">
-                  <h3 class="text-xs font-semibold uppercase tracking-wider text-ink-muted">
-                    Actions
-                  </h3>
-                  <ul class="mt-2 space-y-2">
-                    {goal.actions.map((action) => (
-                      <li class="text-sm">
-                        <p class="text-ink">{action.text}</p>
-                        {(action.lead || action.timeline) && (
-                          <p class="mt-1 text-xs text-ink-muted">
-                            {action.lead && <span>Lead: {action.lead}</span>}
-                            {action.lead && action.timeline && <span> · </span>}
-                            {action.timeline && <span>{action.timeline}</span>}
+                <div class="border-t border-navy/10 px-4 py-3 space-y-3">
+                  {goal.target && (
+                    <div>
+                      <p class="text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                        Target <span class="font-mono normal-case">{goal.target.id}</span>
+                      </p>
+                      <p class="mt-1 text-sm text-ink leading-relaxed">{goal.target.text}</p>
+                    </div>
+                  )}
+                  {goal.baseline && (
+                    <div>
+                      <p class="text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                        Baseline <span class="font-mono normal-case">{goal.baseline.id}</span>
+                      </p>
+                      <p class="mt-1 text-sm text-ink leading-relaxed">{goal.baseline.text}</p>
+                    </div>
+                  )}
+                  <div>
+                    <h3 class="text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      Actions
+                    </h3>
+                    <ul class="mt-2 space-y-2">
+                      {goal.actions.map((action) => (
+                        <li class="text-sm">
+                          <p class="text-ink leading-relaxed">
+                            <span class="mr-2 font-mono text-xs text-ink-muted">{action.id}</span>
+                            {action.text}
                           </p>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
+                          {(action.lead || action.timeline) && (
+                            <p class="mt-1 text-xs text-ink-muted">
+                              {action.lead && <span>Lead: {action.lead}</span>}
+                              {action.lead && action.timeline && <span> · </span>}
+                              {action.timeline && <span>{action.timeline}</span>}
+                            </p>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </details>
             </li>
           ))
         }
       </ul>
+    </section>
+
+    <section
+      class="mt-8 rounded-xl bg-paper p-5"
+      aria-labelledby="spotlight-heading"
+    >
+      <p class="text-xs font-semibold uppercase tracking-wider text-ink-muted">
+        Community Spotlight
+      </p>
+      <h2 id="spotlight-heading" class="mt-1 text-lg font-semibold text-navy">
+        {theme.data.communitySpotlight.title}
+      </h2>
+      <p class="mt-2 text-sm text-ink leading-relaxed">
+        {theme.data.communitySpotlight.body}
+      </p>
     </section>
 
     <section class="mt-8 rounded-xl bg-paper p-4 text-sm" aria-labelledby="source-heading">

@@ -1,5 +1,7 @@
 ---
 title: "Mobility"
+friendlyName: "Transforming Mobility"
+themeGroup: "Improve Our Quality of Life"
 slug: "mobility"
 icon: "bike"
 color: "#C5524F"
@@ -9,10 +11,27 @@ lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-13 to 3-19; Appendix D Mobility Memo"
 relatedThemes: ["energy", "air-quality", "green-space"]
 
+intro: "The City of Alhambra's transportation system tells the story of a community at a crossroads. While 82% of residents still drive alone to work, higher than both the city's 2011 rate and the county average, the City of Alhambra is actively building the foundation for transformative change. With five major corridors carrying most of the city's traffic and transit serving over 2,800 daily riders at the busiest stops, the city faces both the challenge of car dependency and the opportunity of existing infrastructure. The stark reality that the transportation sector produces 52% of the city's greenhouse gas emissions underscores the urgency. Recent achievements like securing $241 million in mobility improvements and adopting the city's first comprehensive active transportation plan demonstrate the City of Alhambra's commitment to creating a more sustainable, equitable future for how the city gets around."
+
+keyAchievements:
+  - "Walk, Bike, Move Alhambra! Plan adopted (March 2024): 50.2-mile proposed bikeway network."
+  - "Local Road Safety Plan completed (March 2023): identifies collision hotspots and safety improvements."
+  - "Fleet electrification commitment: 50% of new fleet purchases electric starting 2024."
+  - "Advancing Alhambra initiative: comprehensive plan to improve traffic flow and safety."
+
+communitySpotlight:
+  title: "Senior Ride — Transportation Equity in Action"
+  body: "Alhambra's free Senior Ride provides curb-to-curb service for residents 60+ and individuals with disabilities of any age. The program offers citywide coverage plus service up to 2 miles beyond city limits for medical appointments, ensuring healthcare access is never limited by transportation barriers. Flexible options include subscription service for regular appointments and group grocery trips connecting seniors to essential services and social activities. The city is exploring electric vehicle integration and expanded hours, making Senior Ride a model for innovative, responsive public transportation."
+
 goals:
   - id: "M-S1"
     title: "Improve the comfort and safety of active and public transportation options."
-    description: "Target M-T1: Vision Zero goal, 50%/100% shaded bus stops by 2030/2045; pedestrian-only pilot street by 2030. Baseline M-B1: N/A."
+    target:
+      id: "M-T1"
+      text: "Vision Zero goal, 50%/100% shaded bus stops by 2030/2045; pedestrian-only pilot street by 2030."
+    baseline:
+      id: "M-B1"
+      text: "N/A"
     actions:
       - id: "M-1a"
         text: "Develop a Vision Zero Action Plan in collaboration with the Transportation Commission."
@@ -34,7 +53,12 @@ goals:
         text: "Evaluate concepts to create active transportation corridors with enhanced pedestrian amenities, increased landscape areas, and bike lanes along Main Street, Front Street and other locations."
   - id: "M-S2"
     title: "Enhance transportation connectivity throughout the city."
-    description: "Target M-T2: Implement ATP's 20-mile bike network, expand bus service connectivity, and improve pedestrian infrastructure throughout the city. Baseline M-B2: N/A."
+    target:
+      id: "M-T2"
+      text: "Implement ATP's 20-mile bike network, expand bus service connectivity, and improve pedestrian infrastructure throughout the city."
+    baseline:
+      id: "M-B2"
+      text: "N/A"
     actions:
       - id: "M-2a"
         text: "Secure funding to implement ATP's 20-mile bike network, prioritize Class I/IV project."
@@ -52,7 +76,12 @@ goals:
         text: "Expand Alhambra Community Transit (ACT Bus) service by increasing routes, frequency, and coverage to better connect neighborhoods and key destinations throughout the city."
   - id: "M-S3"
     title: "Increase mobility services and promote a cultural shift away from car-dependence."
-    description: "Target M-T3: 15% VMT reduction by 2030; 10%/15% active commuting by 2030/2045. Baseline M-B3: VMT reduction from baseline year 2025."
+    target:
+      id: "M-T3"
+      text: "15% VMT reduction by 2030; 10%/15% active commuting by 2030/2045."
+    baseline:
+      id: "M-B3"
+      text: "VMT reduction from baseline year 2025."
     actions:
       - id: "M-3a"
         text: "Monitor VMT reductions using San Gabriel Valley Council of Governments' (SGVCOG) new thresholds as a reference."
@@ -91,18 +120,3 @@ goals:
       - id: "M-3r"
         text: "Reduce VMT through parking strategies such as pricing and amending zoning codes to reduce requirements in new development projects."
 ---
-
-The City of Alhambra's transportation system tells the story of a community at a crossroads. While 82% of residents still drive alone to work, higher than both the city's 2011 rate and the county average, the City of Alhambra is actively building the foundation for transformative change. With five major corridors carrying most of the city's traffic and transit serving over 2,800 daily riders at the busiest stops, the city faces both the challenge of car dependency and the opportunity of existing infrastructure. The stark reality that the transportation sector produces 52% of the city's greenhouse gas emissions underscores the urgency. Recent achievements like securing $241 million in mobility improvements and adopting the city's first comprehensive active transportation plan demonstrate the City of Alhambra's commitment to creating a more sustainable, equitable future for how the city gets around.
-
-**Mobility Goal (M):** Building safe, comfortable infrastructure for walking, biking, and public transit that connects neighborhoods and reduces car dependency.
-
-## Key Achievements
-
-- Walk, Bike, Move Alhambra! Plan adopted (March 2024): 50.2-mile proposed bikeway network.
-- Local Road Safety Plan completed (March 2023): identifies collision hotspots and safety improvements.
-- Fleet electrification commitment: 50% of new fleet purchases electric starting 2024.
-- Advancing Alhambra initiative: comprehensive plan to improve traffic flow and safety.
-
-## Community Spotlight: Senior Ride — Transportation Equity in Action
-
-Alhambra's free Senior Ride provides curb-to-curb service for residents 60+ and individuals with disabilities of any age. The program offers citywide coverage plus service up to 2 miles beyond city limits for medical appointments, ensuring healthcare access is never limited by transportation barriers. Flexible options include subscription service for regular appointments and group grocery trips connecting seniors to essential services and social activities. The city is exploring electric vehicle integration and expanded hours, making Senior Ride a model for innovative, responsive public transportation.
