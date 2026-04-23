@@ -30,16 +30,11 @@ const goalSchema = z.object({
   actions: z.array(actionSchema),
 });
 
-const communitySpotlightSchema = z.object({
-  title: z.string(),
-  body: z.string(),
-});
-
 const themes = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/themes' }),
   schema: z.object({
     title: z.string(),
-    friendlyName: z.string(),
+    friendlyName: z.string().optional(),
     themeGroup: z.enum([
       'Improve Our Quality of Life',
       'Build Climate Resilience',
@@ -55,10 +50,6 @@ const themes = defineCollection({
       message: 'Color must be a 6-digit hex value (e.g., "#2A7A4B")',
     }),
     summary: z.string(),
-    intro: z.string(),
-    keyAchievements: z.array(z.string()),
-    communitySpotlight: communitySpotlightSchema,
-    residentActions: z.array(z.string()).default([]),
     order: z.number().int().positive(),
     goals: z.array(goalSchema),
     lastUpdated: z.coerce.date(),

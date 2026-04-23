@@ -1,5 +1,6 @@
 ---
 title: "Green Economy"
+themeGroup: "Enhance Economic Sustainability"
 slug: "green-economy"
 icon: "leaf"
 color: "#2A7A4B"

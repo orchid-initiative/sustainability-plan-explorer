@@ -1,5 +1,6 @@
 ---
 title: "Sustainability Culture"
+themeGroup: "Improve Our Quality of Life"
 slug: "sustainability-culture"
 icon: "users"
 color: "#4A8B91"
