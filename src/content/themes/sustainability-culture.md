@@ -13,7 +13,12 @@ relatedThemes: ["food", "green-economy", "air-quality"]
 goals:
   - id: "SC-S1"
     title: "Expand educational programming related to sustainability."
-    description: "Target SC-T1: Partner with community organizations to provide annual educational events for sustainability topics throughout the city. Baseline SC-B1: N/A."
+    target:
+      id: "SC-T1"
+      text: "Partner with community organizations to provide annual educational events for sustainability topics throughout the city."
+    baseline:
+      id: "SC-B1"
+      text: "N/A."
     actions:
       - id: "SC-1a"
         text: "Create opportunities for peer-to-peer learning and intergenerational skill-haring [sic] as part of quarterly sustainability events."
@@ -25,7 +30,12 @@ goals:
         text: "Expand the City's sustainability webpage to include all sustainability-related materials and information about existing programs and community services."
   - id: "SC-S2"
     title: "Strengthen city-level sustainability partnerships."
-    description: "Target SC-T2: Host biannual sustainability forums for city staff, to enhance knowledge and sharing of resources for improving sustainability programming across departments. Baseline SC-B2: N/A."
+    target:
+      id: "SC-T2"
+      text: "Host biannual sustainability forums for city staff, to enhance knowledge and sharing of resources for improving sustainability programming across departments."
+    baseline:
+      id: "SC-B2"
+      text: "N/A."
     actions:
       - id: "SC-2a"
         text: "Continue staff and Environmental Sustainability Commission education and participation in sustainability events and training."

@@ -13,7 +13,12 @@ relatedThemes: ["waste", "sustainability-culture", "food"]
 goals:
   - id: "GE-S1"
     title: "Promote sustainable business practices."
-    description: "Target GE-T1: Increase number of businesses recognized through City, Chamber of Commerce, and community newsletters. Baseline GE-B1: N/A."
+    target:
+      id: "GE-T1"
+      text: "Increase number of businesses recognized through City, Chamber of Commerce, and community newsletters."
+    baseline:
+      id: "GE-B1"
+      text: "N/A."
     actions:
       - id: "GE-1a"
         text: "Partner with the Chamber of Commerce to establish a local and tailored green business program that provides regulatory, incentive, and certification services for businesses through California Green Business Network. As part of the Program, coordinate with neighboring cities and partners to inform development of consistent sustainability practices for businesses. Offer free consulting, referrals to city rebate programs, networking opportunities, and marketing perks for participating businesses. Offer technical assistance and resources to help businesses participate. Monitor businesses served through the Green Business Program on an annual basis."
@@ -25,7 +30,12 @@ goals:
         text: "Explore options with the Chamber of Commerce and San Gabriel Valley Council of Governments (SGVCOG) to incentivize reduced dependence on imported products, such as food, to strengthen local trades and businesses, and help reduce carbon emissions associated with travel imports."
   - id: "GE-S2"
     title: "Support small business and diverse business district vitality."
-    description: "Target GE-T2: Increase local business retention in Alhambra. Baseline GE-B2: N/A."
+    target:
+      id: "GE-T2"
+      text: "Increase local business retention in Alhambra."
+    baseline:
+      id: "GE-B2"
+      text: "N/A."
     actions:
       - id: "GE-2a"
         text: "Create more social gathering spaces (third spaces) near businesses to increase foot traffic and commercial interactions."
@@ -39,7 +49,12 @@ goals:
         text: "Partner with the Chamber, local businesses and neighborhood associations to promote the city as a retail and food destination for the greater Los Angeles Area, in turn creating greater sale tax revenues to support other community priorities."
   - id: "GE-S3"
     title: "Foster growth of key economic sectors and support the creation of high-quality jobs in Alhambra."
-    description: "Target GE-T3: Maintain, and increase, high-quality jobs in Alhambra. Baseline GE-B3: N/A."
+    target:
+      id: "GE-T3"
+      text: "Maintain, and increase, high-quality jobs in Alhambra."
+    baseline:
+      id: "GE-B3"
+      text: "N/A."
     actions:
       - id: "GE-3a"
         text: "Implement the Economic Development Action Plan. Leverage existing strengths in the retail, food service and health care sectors to attract development on key corridors and at key nodes with access to high-quality infrastructure and services."

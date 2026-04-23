@@ -13,7 +13,12 @@ relatedThemes: ["mobility", "air-quality", "water"]
 goals:
   - id: "EB-S1"
     title: "Green the electricity supply."
-    description: "Target EB-T1: Attain 75% renewable (zero-carbon) electricity by 2030, and 10% [sic] by 2045 in alignment with state mandates (60% by 2030 and 100% by 2045); and maintain 98% CPA enrollment in 100% Green Rate. Baseline EB-B1: 98% enrollment in CPA in 2023."
+    target:
+      id: "EB-T1"
+      text: "Attain 75% renewable (zero-carbon) electricity by 2030, and 10% [sic] by 2045 in alignment with state mandates (60% by 2030 and 100% by 2045); and maintain 98% CPA enrollment in 100% Green Rate."
+    baseline:
+      id: "EB-B1"
+      text: "98% enrollment in CPA in 2023."
     actions:
       - id: "EB-1a"
         text: "Expand awareness and outreach efforts for 100% Clean Power Alliance enrollment."
@@ -27,7 +32,12 @@ goals:
         text: "Promote low-income programs offered by providers (CPA, SCE, SoCalREN, SGVCOG, GRID Alternatives, etc.)."
   - id: "EB-S2"
     title: "Increase energy efficiency in municipal buildings and operations."
-    description: "Target EB-T2: Reduce municipal buildings' natural gas use by 50% annually by 2030; increase energy efficiency of all streetlights in Alhambra; and achieve 25% energy reductions in municipal buildings by 2030. Baseline EB-B2: 11,765,501 therms natural gas use in 2022."
+    target:
+      id: "EB-T2"
+      text: "Reduce municipal buildings' natural gas use by 50% annually by 2030; increase energy efficiency of all streetlights in Alhambra; and achieve 25% energy reductions in municipal buildings by 2030."
+    baseline:
+      id: "EB-B2"
+      text: "11,765,501 therms natural gas use in 2022."
     actions:
       - id: "EB-2a"
         text: "Work with SoCalREN to identify city facilities and operations needing retrofits or upgraded equipment to increase efficiency (e.g. conduct energy audits); utilize available incentive and rebate programs through Southern California Edison and Clean Power Alliance."
@@ -37,7 +47,12 @@ goals:
         text: "Explore LED and solar streetlight options to improve lighting efficiency and renewable energy use."
   - id: "EB-S3"
     title: "Increase energy efficiency in community buildings and operations."
-    description: "Target EB-T3: Achieve 25% energy reductions in residential and commercial buildings by 2030. Baseline EB-B3: Residential baseline 2015: 156,387,728 kWh and 8,134,202 therms. Commercial baseline 2015: 188,065,108 kWh and 3,598,904 therms."
+    target:
+      id: "EB-T3"
+      text: "Achieve 25% energy reductions in residential and commercial buildings by 2030."
+    baseline:
+      id: "EB-B3"
+      text: "Residential baseline 2015: 156,387,728 kWh and 8,134,202 therms. Commercial baseline 2015: 188,065,108 kWh and 3,598,904 therms."
     actions:
       - id: "EB-3a"
         text: "Recommend energy-efficiency audits during transfer of ownership of buildings."
@@ -49,7 +64,12 @@ goals:
         text: "Share information and educational resources about upgrading or replacing for electric appliances and heating systems."
   - id: "EB-S4"
     title: "Decarbonize all municipal buildings and operations."
-    description: "Target EB-T4: Design all new municipally owned buildings to be fully electric; and convert natural gas heating systems to fully electric in 50% of existing, municipally owned facilities by 2030 and 100% by 2045. Baseline EB-B4: N/A."
+    target:
+      id: "EB-T4"
+      text: "Design all new municipally owned buildings to be fully electric; and convert natural gas heating systems to fully electric in 50% of existing, municipally owned facilities by 2030 and 100% by 2045."
+    baseline:
+      id: "EB-B4"
+      text: "N/A."
     actions:
       - id: "EB-4a"
         text: "Install solar energy, electric building infrastructure, or other renewable energy on all viable City-owned properties."
@@ -57,7 +77,12 @@ goals:
         text: "Explore potential sites for community solar gardens in coordination with solar garden providers and other partners."
   - id: "EB-S5"
     title: "Decarbonize the community building stock (residential, commercial, industrial)."
-    description: "Target EB-T5: Existing Residential: Achieve 5% electric by 2030; 75% by 2045; new Residential: 15% electric by 2030; 75% by 2045; existing Non-Residential: 5% electric by 2030; 75% by 2045; and new Non-Residential: 15% electric by 2030; 75% by 2045. Baseline EB-B5: N/A."
+    target:
+      id: "EB-T5"
+      text: "Existing Residential: Achieve 5% electric by 2030; 75% by 2045; new Residential: 15% electric by 2030; 75% by 2045; existing Non-Residential: 5% electric by 2030; 75% by 2045; and new Non-Residential: 15% electric by 2030; 75% by 2045."
+    baseline:
+      id: "EB-B5"
+      text: "N/A."
     actions:
       - id: "EB-5a"
         text: "Work with partners to expand education to the community about ways to improve energy efficiency, including behavioral changes, appliance purchases and rebates, and maintenance practices."
@@ -69,7 +94,12 @@ goals:
         text: "Promote Clean Power Alliance's Solar Marketplace."
   - id: "EB-S6"
     title: "Decarbonize transportation."
-    description: "Target EB-T6: Achieve 20% EV adoption communitywide; increase publicly accessible EV charging stations citywide by 2030; acquire 100% of new city fleet vehicle purchases as zero emissions by 2030. Baseline EB-B6: 6% EV adoption; 55 publicly accessible EV charging stations; 50% of new fleet vehicle purchases as electric in 2024."
+    target:
+      id: "EB-T6"
+      text: "Achieve 20% EV adoption communitywide; increase publicly accessible EV charging stations citywide by 2030; acquire 100% of new city fleet vehicle purchases as zero emissions by 2030."
+    baseline:
+      id: "EB-B6"
+      text: "6% EV adoption; 55 publicly accessible EV charging stations; 50% of new fleet vehicle purchases as electric in 2024."
     actions:
       - id: "EB-6a"
         text: "Require EV charging stations and EV-designated parking for new development, per state building code."
@@ -81,7 +111,12 @@ goals:
         text: "Work with CSULA to identify feasible locations for installing hydrogen fueling stations at municipal and other facilities communitywide."
   - id: "EB-S7"
     title: "Cool the community."
-    description: "Target EB-T7: Designate a community resilience center by 2030, to serve as a cooling hub during extreme heat emergencies and to provide resources to residents; establish cooling requirements for new developments by 2030. Baseline EB-B7: N/A."
+    target:
+      id: "EB-T7"
+      text: "Designate a community resilience center by 2030, to serve as a cooling hub during extreme heat emergencies and to provide resources to residents; establish cooling requirements for new developments by 2030."
+    baseline:
+      id: "EB-B7"
+      text: "N/A."
     actions:
       - id: "EB-7a"
         text: "Evaluate all City roofs undergoing repair work for green roofs, cool roofs, and climate infrastructure installation."

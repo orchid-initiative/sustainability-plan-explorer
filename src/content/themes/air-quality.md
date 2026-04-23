@@ -13,7 +13,12 @@ relatedThemes: ["mobility", "energy", "sustainability-culture"]
 goals:
   - id: "AQ-S1"
     title: "Reduce local contributions to air pollution and increase monitoring and awareness of pollution sources."
-    description: "Target AQ-T1: Update the community-wide greenhouse gas inventory every 4 years to measure progress towards reductions; host annual community workshops on air quality and pollution measures; and increase the number of community purple air sensors by 50 by 2030. Baseline AQ-B1: 436,480 metric tons of carbon dioxide equivalent (MTCO2e) in 2022; 56 air sensors in 2022."
+    target:
+      id: "AQ-T1"
+      text: "Update the community-wide greenhouse gas inventory every 4 years to measure progress towards reductions; host annual community workshops on air quality and pollution measures; and increase the number of community purple air sensors by 50 by 2030."
+    baseline:
+      id: "AQ-B1"
+      text: "436,480 metric tons of carbon dioxide equivalent (MTCO2e) in 2022; 56 air sensors in 2022."
     actions:
       - id: "AQ-1a"
         text: "Maintain an updated communitywide GHG inventory to monitor activity data, emissions reductions over time, and progress in alignment with state goals."
@@ -27,7 +32,12 @@ goals:
         text: "Assess neighborhoods for establishing a pilot program for low or zero-emission zones that restrict polluting vehicles from entering, to reduce exposure to transportation pollution. Conduct GIS mapping to assess neighborhoods, especially those in higher-density areas or neighborhoods with numerous sensitive receptors, such as schools and senior centers. Identify high-emitting vehicles through the pilot program."
   - id: "AQ-S2"
     title: "Support efforts to mitigate the impact of air pollution on community health."
-    description: "Target AQ-T2: Host an annual health event in partnership with health providers, focusing on health risks, impacts, and resources for mitigating air pollution. Baseline AQ-B2: N/A."
+    target:
+      id: "AQ-T2"
+      text: "Host an annual health event in partnership with health providers, focusing on health risks, impacts, and resources for mitigating air pollution."
+    baseline:
+      id: "AQ-B2"
+      text: "N/A."
     actions:
       - id: "AQ-2a"
         text: "Evaluate options to improve near-road air quality, prioritizing areas with greatest particulate matter pollution (PM2.5 and diesel PM) and near vulnerable communities and sensitive sites (senior centers, schools, daycares, etc.). Survey and install vegetated buffers along major roads."
