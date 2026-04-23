@@ -6,7 +6,7 @@ color: "#C89B3C"
 summary: "Transitioning to clean, renewable energy sources and improving building efficiency to reduce fossil fuel dependence."
 order: 5
 lastUpdated: 2026-04-22
-source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-27 to 3-33"
+source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-26 to 3-33"
 relatedThemes: ["mobility", "air-quality", "water"]
 
 goals:
@@ -96,7 +96,14 @@ goals:
         text: "Evaluate outdoor spaces of public facilities, including the Civic Center, parks, and parking garage areas, for installing water misting cooling systems, to help with cooling during extreme heat events."
 ---
 
+Energy consumption is a significant contributor to GHG emissions and local air pollution. Electrification of buildings, appliances, and vehicles advances sustainability goals while reducing energy costs and improving air quality. These improvements benefit community health by reducing both indoor and outdoor pollution exposure.
+
 **Energy and Buildings Goal (EB):** Transitioning to clean, renewable energy sources and improving building efficiency to reduce fossil fuel dependence.
+
+## Key Achievements
+
+- The City has implemented various energy efficiency projects over the past two decades. These include LED streetlight upgrades in neighborhoods and along major corridors, HVAC and lighting retrofits at city facilities, and a pump audit program that saved over 630,000 kWh annually. Other efforts include energy-efficient lighting at the Groundwater Treatment Plant and the city's annual Eco-Fair, which promotes energy awareness and distributes green products.
+- New double-paned, EE windows at Almansor gym.
 
 ## Community Spotlight: The Alhambra Campus — Clean Energy Leadership
 

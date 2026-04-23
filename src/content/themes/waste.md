@@ -3,7 +3,7 @@ title: "Waste Reduction"
 slug: "waste"
 icon: "recycle"
 color: "#6B4E8A"
-summary: "Sorting right, composting more, reusing more — and keeping food scraps and recyclables out of the landfill where they turn into methane."
+summary: "Moving toward zero waste through enhanced recycling, composting, waste minimization programs, and promoting a culture of reuse and repair that creates economic value from materials while reducing environmental impact."
 order: 9
 lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-52 to 3-57"
@@ -11,69 +11,64 @@ relatedThemes: ["green-economy", "food", "sustainability-culture"]
 
 goals:
   - id: "WR-S1"
-    title: "Increase waste minimization and diversion"
-    description: "Target: 100% residential and commercial participation in the City's organics collection (per the Organic Waste Disposal Reduction Ordinance)."
+    title: "Increase waste minimization and diversion efforts."
+    description: "Target WR-T1: Achieve 100% participation from residences and commercial businesses for the city's organics collection services (Organic Waste Disposal Reduction Ordinance). Baseline WR-B1: N/A."
     actions:
       - id: "WR-1a"
-        text: "Expand awareness of community recycling services and public sorting bins — battery and phone drop-off, e-waste pickup, holiday tree pickup. Explore more drop-off and pickup materials."
+        text: "Continue promoting and expanding awareness of community recycling services and public sorting bins (e.g., battery and cell phone drop off at city facilities, e-waste pickup, and holiday tree pick-up), to increase education for responsible waste practices and use of receptables. Explore expanding materials accepted for drop-off at public facilities and pick-up by Republic Services."
       - id: "WR-1b"
         text: "Adopt a municipal zero-plastic purchasing policy, with exceptions for 100% recycled plastic."
       - id: "WR-1c"
-        text: "Partner with Republic Services and LA County Public Works to run quarterly community collection events for recycling and household hazardous waste."
+        text: "Continue collaborations with Republic Services and LA County Department of Public Works to increase the number of community collection events, to happen quarterly, for recycling and household hazardous waste."
       - id: "WR-1d"
-        text: "Promote food preparation guidelines that minimize food loss — with resources in Chinese and Spanish for wider reach."
+        text: "Promote resources to help businesses adopt food preparation guidelines that minimize food loss. Ensure resources for businesses are available in multiple languages for a wider reach, including Chinese and Spanish."
       - id: "WR-1e"
-        text: "Expand the Bins for Businesses program to increase restaurant recycling; seek funding to keep the free-bin program for Alhambra-licensed restaurants."
+        text: "Expand awareness of the city's Bins for Businesses program to increase recycling for all restaurants. Seek additional funding to continue providing free bins for restaurants with an Alhambra business license."
       - id: "WR-1f"
-        text: "Celebrate sustainable business achievements on the City webpage, social media, and Business Spotlight."
+        text: "Continue celebrating sustainable business achievements on the City's webpage, social media, and Business Spotlight."
       - id: "WR-1g"
         text: "Ensure every business and household has access to organic waste service."
       - id: "WR-1h"
-        text: "Create resources and incentives for businesses to earn zero-waste certification."
+        text: "Create resources and incentives for businesses to achieve zero waste certification."
   - id: "WR-S2"
-    title: "Increase organics diversion and recovery"
-    description: "Target: 75% diversion of organic waste, aligned with California's SB 1383 goals. Baseline: 43% diversion in 2022."
+    title: "Increase organics diversion and recovery."
+    description: "Target WR-T2: Achieve 75% diversion of organic waste, in alignment with state Senate Bill 1383 goals. Baseline WR-B2: 43% diversion in 2022."
     actions:
       - id: "WR-2a"
-        text: "Expand outreach and education with Republic Services to maximize participation in organic waste collection."
+        text: "Increase collaboration with Republic Services for outreach and education to residents, to achieve maximum participation in organic waste collection service."
       - id: "WR-2b"
         text: "Establish locations for organic waste collection and composting sites."
       - id: "WR-2c"
-        text: "Explore public composting drop-offs — at community gardens and the Farmers Market — where residents can bring food scraps."
+        text: "Explore public locations for organic collection, such as in community gardens and at the Farmers Market, where community members can dispose of their food scraps and participate in composting programs."
       - id: "WR-2d"
-        text: "Host composting workshops at community centers, schools, and neighborhood associations."
+        text: "Partner with local community centers, schools, and neighborhood associations to host additional composting workshops at various locations to ensure broader accessibility and supplies for all residents."
       - id: "WR-2e"
-        text: "Partner with Green Oceanside Kitchen and One Kitchen Collaborative on food recovery and preservation workshops."
+        text: "Partner with Green Oceanside Kitchen and One Kitchen Collaborative to offer food recovery and preservation workshops and digital resources."
   - id: "WR-S3"
-    title: "Build a culture of sharing, repairing, reusing, reducing, recycling"
-    description: "Target: annual skills-sharing workshop for reuse and repair; drinking fountains and water-filling stations at all City facilities by 2030; more fountains at parks, bus stops, and public plazas."
+    title: "Promote a culture that takes pride in sharing, repairing, reusing, reducing, and recycling."
+    description: "Target WR-T3: Hold an annual skills-sharing workshop to promote reuse and repair of materials; provide drinking fountains and water filling stations at all city facilities by 2030; and increase the availability of public fountains and stations at parks, at bus stops, and in public plazas. Baseline WR-B3: N/A."
     actions:
       - id: "WR-3a"
-        text: "Stimulate remanufacturing, repair, and sharing economies — host LA County's LA Fixit Clinic repair events."
+        text: "Stimulate remanufacturing, repair, and sharing economies through collaborations with businesses and makerspaces to promote resource efficiency, including hosting LA County's LA Fixit Clinic repair events."
       - id: "WR-3b"
-        text: "Provide efficient, accessible alternatives for residents to donate goods and support local charities."
+        text: "Provide efficient and accessible alternatives for residents to donate goods, reduce waste, and support local charities."
       - id: "WR-3c"
-        text: "Establish a free-box program at the community center or library; encourage multifamily housing, businesses, churches, community organizations, and schools to do the same."
-      - id: "WR-3d"
-        text: "Expand water-filling stations and fountains to reduce single-use plastic."
+        text: "Promote donation programs and encourage communitywide participation. Establish a free-box program at the city's community center or library to promote sharing and provide a place for exchanging items. Encourage multifamily residences, businesses, churches, community-based organizations, and schools to do the same."
+      - id: "WR-de [sic]"
+        text: "Expand water filling stations and fountains to reduce single-use plastic."
 ---
 
-Less landfill isn't just about the landfill. When food and organic waste rot
-in a landfill, they produce methane — a greenhouse gas much more potent than
-CO₂. So diverting organics, recycling better, and building a culture of
-reuse are all climate moves, in addition to keeping public spaces cleaner
-and cheaper to maintain.
+Effective waste reduction enhances community livability, maintains clean public spaces, and fosters civic pride. Beyond local benefits, waste management has global climate implications, as landfill waste generates methane, a potent greenhouse gas. Comprehensive waste reduction strategies must consider the entire lifecycle of materials to maximize environmental benefits and support circular economic principles.
 
-**Local wins so far:** Alhambra adopted the Mandatory Organic Waste Disposal
-Reduction Ordinance in 2021 — every home and business now participates in
-organics recycling with color-coded carts (blue for recycling, black for
-trash, green for organics). "Compost Charlie," the mascot-led education
-program, visits schools and community events. The City is working with
-Republic Services and the San Gabriel Valley Council of Governments on SB 1383
-compliance, including edible food recovery for businesses.
+**Waste Reduction Goal (WR):** Moving toward zero waste through enhanced recycling, composting, waste minimization programs, and promoting a culture of reuse and repair that creates economic value from materials while reducing environmental impact.
 
-**Community spotlight — Alhambra Recycles Events:** Twice a year at Granada
-Park, hundreds of residents shred documents, drop off e-waste, and take home
-free compost — plus Fosselman's ice cream vouchers. Spring 2023: 195
-participants disposed of electronics, 106 residents took home 10 tons of
-compost.
+## Key Achievements
+
+- Alhambra is working with Republic Services and the San Gabriel Valley Council of Governments to meet California's SB 1383 requirements, including launching an edible food recovery program for businesses.
+- The City also hosts events like the Alhambra Recycles Event, which in 2023 included compost giveaways and recycling education.
+- In 2021, the Alhambra City Council adopted a Mandatory Organic Waste Disposal Reduction Ordinance requiring all homes and businesses to participate in organic waste recycling using color-coded carts, blue for recycling, black for trash, and green for organics.
+- The City partners with Republic Services to provide "Compost Charlie," a mascot-based educational program that teaches residents about organic waste recycling and composting through community events, school visits, and public outreach initiatives.
+
+## Community Spotlight: Alhambra Recycles Events — Making Waste Reduction Fun
+
+Twice yearly, Granada Park transforms into a bustling hub of environmental action during Alhambra's biannual Recycles Events. These popular Saturday morning events (8 a.m. to noon) create a convenient drive-through experience where hundreds of residents securely shred documents, dispose of electronic waste, recycle materials, and take home free compost. In partnership with Republic Services, the spring 2023 event alone saw 195 participants dispose of electronics, 106 residents collect compost, and 10 tons of compost distributed for garden use. Beyond environmental benefits, these community celebrations feature free Fosselman's ice cream vouchers and educational opportunities, demonstrating how cities can make waste reduction convenient, educational, and enjoyable while building community pride around environmental stewardship.
