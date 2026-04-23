@@ -11,17 +11,6 @@ lastUpdated: 2026-04-22
 source_reference: "Sustainable Alhambra (Public Draft, March 2026), Chapter 3, pp. 3-3 to 3-7"
 relatedThemes: ["water", "mobility", "food"]
 
-intro: "Alhambra's available open space, parks and recreation, and urban greening are essential to a diverse and sustainable landscape, that provides benefit to the natural and urban environment, to public health, and for fostering social connectivity and placemaking. Ensuring equitable access to parks and open spaces is crucial for creating healthier, happier, and more connected communities."
-
-keyAchievements:
-  - "The City requires landscaping for new developments and for rehabilitated landscaping projects to be drought tolerant, filter and retain runoff, support flood management and groundwater recharge."
-  - "The City of Alhambra has adopted a Tree Preservation Ordinance that requires a 2:1 replacement of trees in certain instances of removal."
-  - "The City is also engaged in the Green Street Demonstration project along the median (Main Street between South Fremont Avenue and Hampden Terrace), which is adding bioswales for stormwater capture, as well as planting of trees to expand the urban tree canopy."
-
-communitySpotlight:
-  title: "Almansor Park — From Landfill to Community Jewel"
-  body: "In the 1950s, Almansor Park transformed from a former landfill into Alhambra's largest green space, a vibrant 22-acre recreational hub serving multiple neighborhoods. Today, this environmental success story features innovative stormwater management, habitat restoration, a lake, jogging courses, and sports facilities that bring generations of families together. The park exemplifies how environmental challenges can become opportunities for community building and sustainable recreation."
-
 goals:
   - id: "GS-S1"
     title: "Increase tree canopy citywide."
@@ -89,3 +78,17 @@ goals:
       - id: "GS-3e"
         text: "Explore incentives for pollinator gardens, green roofs and vertical gardens for private and commercial property."
 ---
+
+Alhambra's available open space, parks and recreation, and urban greening are essential to a diverse and sustainable landscape, that provides benefit to the natural and urban environment, to public health, and for fostering social connectivity and placemaking. Ensuring equitable access to parks and open spaces is crucial for creating healthier, happier, and more connected communities.
+
+**Green Space Goal (GS):** Creating more parks, tree canopy coverage, and green infrastructure that provides shade, improves air quality, and offers places for recreation and community gathering.
+
+## Key Achievements
+
+- The City requires landscaping for new developments and for rehabilitated landscaping projects to be drought tolerant, filter and retain runoff, support flood management and groundwater recharge.
+- The City of Alhambra has adopted a Tree Preservation Ordinance that requires a 2:1 replacement of trees in certain instances of removal.
+- The City is also engaged in the Green Street Demonstration project along the median (Main Street between South Fremont Avenue and Hampden Terrace), which is adding bioswales for stormwater capture, as well as planting of trees to expand the urban tree canopy.
+
+## Community Spotlight: Almansor Park — From Landfill to Community Jewel
+
+In the 1950s, Almansor Park transformed from a former landfill into Alhambra's largest green space, a vibrant 22-acre recreational hub serving multiple neighborhoods. Today, this environmental success story features innovative stormwater management, habitat restoration, a lake, jogging courses, and sports facilities that bring generations of families together. The park exemplifies how environmental challenges can become opportunities for community building and sustainable recreation.

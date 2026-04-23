@@ -1,5 +1,6 @@
 ---
 title: "Water"
+themeGroup: "Build Climate Resilience"
 slug: "water"
 icon: "droplet"
 color: "#2274A5"

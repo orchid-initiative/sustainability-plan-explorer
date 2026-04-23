@@ -1,5 +1,6 @@
 ---
 title: "Air Quality"
+themeGroup: "Build Climate Resilience"
 slug: "air-quality"
 icon: "wind"
 color: "#5B8BA0"

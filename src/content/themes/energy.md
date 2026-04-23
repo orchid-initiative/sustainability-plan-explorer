@@ -1,5 +1,6 @@
 ---
 title: "Energy and Buildings"
+themeGroup: "Build Climate Resilience"
 slug: "energy"
 icon: "bolt"
 color: "#C89B3C"

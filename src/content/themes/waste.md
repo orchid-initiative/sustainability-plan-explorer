@@ -1,5 +1,6 @@
 ---
 title: "Waste Reduction"
+themeGroup: "Enhance Economic Sustainability"
 slug: "waste"
 icon: "recycle"
 color: "#6B4E8A"
